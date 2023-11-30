@@ -42,6 +42,6 @@ The environment is based on [Unity ML-agents](https://github.com/Unity-Technolog
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file.     
     
 ### Explanation
-My solution for this environment is a standard DQN with fixed q-targets and experienced replay. The agent is created with an internal q-network of 4 fully-connected layers, joined by ReLU activation functions and using dropout functions for regularization. The agent also satisfies GLIE conditions and uses a discount rate of 0.995.
+My approach for this environment involves implementing a standard Deep Q-Network (DQN) with fixed Q-targets and experience replay mechanisms. The agent architecture consists of a 4-layer fully-connected neural network, employing Rectified Linear Unit (ReLU) activation functions and integrating dropout functions to prevent overfitting. The agent adheres to the GLIE (Greedy in the Limit with Infinite Exploration) conditions and utilizes a discount rate of 0.995 to weigh future rewards.
 
-The agent is trained in a training loop for either 500 episodes (with a max of 600 timesteps each) or when it reaches an average reward over 100 episodes of 10.0 or greater.
+Training occurs within a loop where the agent undergoes training for up to 500 episodes, each with a maximum of 600 timesteps, or until it achieves an average reward exceeding 10.0 across 100 consecutive episodes. This training strategy aims to ensure sufficient exploration and learning while striving for a satisfactory policy within the specified environment.
