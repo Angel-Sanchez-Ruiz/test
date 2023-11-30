@@ -42,6 +42,6 @@ The environment is based on [Unity ML-agents](https://github.com/Unity-Technolog
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file.     
     
 ### Explanation
-My solution for this environment is a standard DQN with fixed q-targets and experienced replay. The agent is created with an internal q-network of 3 fully-connected layers, joined by ReLU activation functions. The agent also satisfies GLIE conditions and uses a discount rate of 0.995.
+My solution for this environment is a standard DQN with fixed q-targets and experienced replay. The agent is created with an internal q-network of 4 fully-connected layers, joined by ReLU activation functions and using dropout functions for regularization. The agent also satisfies GLIE conditions and uses a discount rate of 0.995.
 
-The agent is trained in a training loop for either 2000 episodes (with a max of 500 timesteps each) or when it reaches an average reward over 100 episodes of 13.0 or greater.
+The agent is trained in a training loop for either 500 episodes (with a max of 600 timesteps each) or when it reaches an average reward over 100 episodes of 10.0 or greater.
