@@ -41,8 +41,7 @@ The agent solved the environment (by reaching an average reward of 10 over 100 e
 
 ### Reward vs. Episode
 
-![reward](https://user-images.githubusercontent.com/39870221/85939819-6aae0600-b8e6-11ea-9748-cbffbd4b62aa.png)
-
+![reward](https://github.com/Angel-Sanchez-Ruiz/udacity_DRL_Navigation/blob/main/reward_vs_episode.png)
 
 ## Improvements
 
