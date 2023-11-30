@@ -12,7 +12,7 @@ This framework aids in stabilizing and enhancing the learning process by reducin
 
 |Name|Value|
 |---|---:|
-|Episodes|400|
+|Episodes|500|
 |Epsilon Start|1.0|
 |Epsilon Decay|0.95|
 |Epsilon Min|0.01|
