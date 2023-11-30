@@ -37,7 +37,7 @@ The model uses 4 fully-connected layers:
 A convolutional net is not used as the agent does not learn directly from the pixels of the environment, but a prepared vector of relevant information.
 
 ## Performance
-The agent solved the environment (by reaching an average reward of 10 over 100 episodes) in **x** episodes, before the 500 episode limit.
+The agent solved the environment (by reaching an average reward of 10 over 100 episodes) in **330** episodes, before the 500 episode limit.
 
 ### Reward vs. Episode
 
