@@ -12,7 +12,7 @@ This framework aids in stabilizing and enhancing the learning process by reducin
 
 |Name|Value|
 |---|---:|
-|Episodes|500|
+|Episodes|600|
 |Epsilon Start|1.0|
 |Epsilon Decay|0.95|
 |Epsilon Min|0.01|
@@ -21,7 +21,7 @@ This framework aids in stabilizing and enhancing the learning process by reducin
 |Tau|0.001|
 |Buffer Size|100000|
 |Batch Size|64|
-|Goal|10.0|
+|Goal|13.0|
 
 #### Model Architecture
 
@@ -37,7 +37,7 @@ The model uses 4 fully-connected layers:
 A convolutional net is not used as the agent does not learn directly from the pixels of the environment, but a prepared vector of relevant information.
 
 ## Performance
-The agent solved the environment (by reaching an average reward of 10 over 100 episodes) in **330** episodes, before the 500 episode limit.
+The agent solved the environment (by reaching an average reward of 13 over 100 episodes) in **470** episodes, before the 600 episode limit.
 
 ### Reward vs. Episode
 
@@ -50,4 +50,4 @@ The agent solved the environment (by reaching an average reward of 10 over 100 e
 - Using a distributional DQN
 - Adding more fully-connected layers / more hidden units to the layers
 - Design a CNN for the agent
-- Training past the target average reward of 10 and seeing what the limit is
+- Training past the target average reward of 13 and seeing what the limit is
